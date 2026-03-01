@@ -61,3 +61,21 @@ db/*.db-journal
 
 # Uploads
 upload/
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# env files
+.env
+.env.local
+
+# prisma
+prisma/*.db
+prisma/*.db-journal
+
+# misc
+.DS_Store
+*.log
